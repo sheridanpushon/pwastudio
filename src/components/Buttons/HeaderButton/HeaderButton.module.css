@@ -1,0 +1,42 @@
+.root {
+  height: 24px;
+  width: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #E0E0E0;
+  border-radius: 35px;
+  padding-left: 13px;
+  padding-right: 9.58px;
+  opacity: 1;
+  background-color: inherit;
+  color: var(--primary);
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-16)/40px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.root:hover{
+  background-color: var(--primary);
+  color: var(--unnamed-color-ffffff);
+  border: 2px solid var(--primary);
+}
+
+.alt {
+  color: var(--secondary);
+}
+
+.alt:hover {
+  background-color: var(--secondary);
+  color: var(--unnamed-color-ffffff);
+  border: 2px solid var(--secondary);
+}
+
+.arrowIcon {
+  height: 11px;
+  width: 12.269px;
+  fill: var(--icons);
+}
+
+.root:hover .arrowIcon {
+  fill: var(--unnamed-color-ffffff);
+}

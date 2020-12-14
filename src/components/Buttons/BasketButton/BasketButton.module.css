@@ -1,0 +1,76 @@
+.root {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #E0E0E0;
+  background: #FDFDFD 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  color: var(--secondary);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: var(--unnamed-font-style-normal) normal 600 11px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.root:hover {
+  border: 2px solid var(--secondary);
+}
+
+.rootActive {
+  background-color: var(--secondary);
+  border: 0;
+}
+
+.rootActive:hover {
+  border: 0;
+}
+
+.basketIcon {
+  fill: var(--secondary);
+  width: 25.426px;
+  height: 21.663px;
+}
+
+.inner {
+  fill: #ffffff;
+  opacity: 0;
+  transition: all ease-out .3s;
+}
+
+.iconContainer:hover .inner {
+  fill: var(--secondary);
+  opacity: 1;
+}
+
+.basketIconActive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #FDFDFD;
+  width: 25.426px;
+  height: 21.663px;
+  z-index: 0;
+}
+
+.basketQuantity {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-52%, -30%);
+  z-index: 5;
+}
+
+.whiteDiv {
+  position: absolute;
+  top: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 19px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}

@@ -1,0 +1,91 @@
+.root {
+  width: 93%;
+  border: 2px solid #E0E0E0;
+  border-radius: 15px;
+  background-color: #fff;
+  color: var(--primary);
+  text-align: left;
+  font-weight: 600;
+}
+
+.heading {
+  margin: 10px 0;
+}
+
+.underline {
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  border: 2px solid #E0E0E0;
+  border-radius: 18px;
+  height: 28px;
+  font-size: 1.1rem;
+  padding: 0 15px;
+}
+
+.red {
+  color: var(--secondary);
+}
+
+.iconContainer {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #E0E0E0;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.open {
+  display: inline-block;
+  background-color: #2B8E3C;
+  border-radius: 6px;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+.closed {
+  display: inline-block;
+  background-color: var(--secondary);
+  border-radius: 6px;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textLight {
+  font-weight: 400;
+  color: #575e5e;
+}
+
+.textDark {
+  font-weight: 500;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 15px/var(--unnamed-line-spacing-22) var(--unnamed-font-family-inter);
+  color: #292929;
+}
+
+.marginBottom {
+  margin-bottom: 10px;
+}

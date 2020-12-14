@@ -1,0 +1,43 @@
+.root {
+  text-align: left;
+  padding: 0;
+  width: 192px;
+  height: 40px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-16)/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: #000000;
+  border: 0;
+  border-radius: 20px;
+  opacity: 1;
+  transition: all ease-out .3s;
+}
+
+.root:hover {
+  width: 221px;
+  transition: all ease-out .3s;
+}
+
+.innerContainer {
+  position: relative;
+  width: 192px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: -14px;
+  width: 12px;
+  height: 11px;
+  opacity: 0;
+  fill: var(--secondary);
+  transition: all ease-out .3s;
+}
+
+.root:hover .arrowIcon {
+  opacity: 1;
+  transition: all ease-out .3s;
+}

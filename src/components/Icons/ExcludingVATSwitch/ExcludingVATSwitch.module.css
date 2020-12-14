@@ -1,0 +1,19 @@
+.a {
+  fill: #e6e6e6;
+  stroke: #e6e6e6;
+  stroke-width: 0.25px;
+}
+.b {
+  fill: #003e7e;
+}
+.c{ 
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-12)/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  fill: var(--primary);
+}
+.d {
+  stroke: none;
+}
+.e { 
+  fill: none;
+}

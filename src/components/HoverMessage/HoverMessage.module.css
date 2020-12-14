@@ -1,0 +1,30 @@
+.root {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  opacity: 0;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  background: var(--primary) 0% 0% no-repeat padding-box;
+  border-radius: 35px;
+  font: var(--unnamed-font-style-normal) normal 600 9px/40px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  height: 16px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  transform: translateX(-50%);
+  transition: all ease-out .3s;
+}
+
+.root:hover .message {
+  opacity: 1;
+  transition: all ease-out .3s;
+}

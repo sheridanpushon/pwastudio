@@ -1,0 +1,115 @@
+.root {
+
+}
+
+.topSection {
+  padding: 30px 0;
+  height: 180px;
+  border-bottom: 2px solid #E0E0E0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topSection img {
+  margin: 0 10px;
+}
+
+.topSection p {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 15px/26px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.topSection span {
+  color: var(--primary);
+}
+
+.topSection .container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.topSection b {
+  font: var(--unnamed-font-style-normal) normal 600 15px/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  margin-bottom: 19px;
+}
+
+.topSection .container p {
+  margin: 0;
+}
+
+.topSection .container:nth-child(n+2) {
+  border-left: 2px solid #E0E0E0;
+}
+
+.middleSection{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.middleSection .container:nth-child(n+2) {
+  border-left: 2px solid #E0E0E0;
+}
+
+.middleSection .container h4 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.middleSection .container p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.middleSection .container {
+  flex: 1;
+  padding: 20px;
+}
+
+.bottomSection {
+  height: 70px;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  color: var(--unnamed-color-ffffff);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/26px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.bottomSection .container {
+  display: flex;
+  align-items: center;
+}
+
+
+.bottomSection img:nth-child(n+2) {
+  border-left: 2px solid rgba(224, 224, 224, .35);
+}
+
+.bottomSection img {
+  padding: 0 15px;
+}
+
+.bottomSection p {
+  padding: 0 8px;
+}
+
+.bottomSection p:nth-child(n+2) {
+  border-left: 2px solid rgba(224, 224, 224, .35);
+}
+
+.bottomSection span {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/16px Inter;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  margin: 0 30px;
+}
+
+.logo {
+  height: 52px;
+  width: 360px;
+}

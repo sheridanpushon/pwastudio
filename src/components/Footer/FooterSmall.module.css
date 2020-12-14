@@ -1,0 +1,66 @@
+.root {
+
+}
+
+.logoContainer {
+  border-bottom: 2px solid #E0E0E0;
+  padding: 25px;
+}
+
+.logoContainer img {
+  width: 275px;
+  height: 40px;
+}
+
+.menu {
+  padding: 0 20px;
+}
+
+.menu .separator {
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.foot {
+  height: 180px;
+  background-color: var(--primary);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/26px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+
+.foot .separator {
+  border-right: 2px solid rgba(224, 224, 224, .25);
+  height: 40px;
+}
+
+.foot img {
+  flex: 1;
+  margin: 7px 0;
+}
+
+.foot .container:nth-child(1) {
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 2px solid rgba(224, 224, 224, .25);
+}
+
+.foot .container:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgba(224, 224, 224, .25);
+}
+
+.foot p {
+  padding: 0 10px;
+  margin: 12px 0;
+  line-height: 100%;
+}
+
+.foot p:nth-child(n+2) {
+  border-left: 1px solid #ffffff;
+}
+
+.container:nth-child(3) {
+  text-align: center;
+  padding: 12px;
+}

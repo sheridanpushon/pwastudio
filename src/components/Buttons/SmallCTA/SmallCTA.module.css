@@ -1,0 +1,21 @@
+.root {
+  width: 98px;
+  height: 30px;
+  border: 2px solid #E0E0E0;
+  border-radius: 25px;
+  background-color: inherit;
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-14)/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--primary);
+  text-align: center;
+}
+
+.alt {
+  border: 2px solid var(--primary);
+}
+
+.root:hover {
+  border: 0;
+  background-color: var(--primary);
+  color: #ffffff;
+}

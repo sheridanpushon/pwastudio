@@ -1,0 +1,18 @@
+.root {
+  height: 50px;
+  width: 164px;
+  border: 2px solid #E0E0E0;
+  border-radius: 25px;
+  background-color: inherit;
+  opacity: 1;
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-16)/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--primary);
+  text-align: center;
+}
+
+.alt {
+  background-color: var(--primary);
+  border: none;
+  color: var(--unnamed-color-ffffff);
+}

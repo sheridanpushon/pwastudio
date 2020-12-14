@@ -1,0 +1,34 @@
+.root {
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+  padding-top: 10px;
+}
+
+.sidebar {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 68%;
+}
+
+.container {
+  margin-bottom: 20px;
+  border: 2px solid #E0E0E0;
+  
+  background-color: #fff;
+}
+
+.map {
+  height: 400px;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+.review {
+  height: 170px;
+}

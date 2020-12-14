@@ -1,0 +1,21 @@
+.root {
+  width: 168px;
+  height: 30px;
+  border: 2px solid #E0E0E0;
+  border-radius: 14px;
+  opacity: 1;
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-14)/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--secondary);
+  background-color: inherit;
+  padding: 0 11px 0 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrowIcon {
+  width: 12px;
+  height: 11px;
+  fill: var(--secondary);
+}

@@ -1,0 +1,41 @@
+.root {
+  position: relative;
+  padding: 0 20px;
+  padding-left: 42px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 18px;  
+  color: #fff;
+  background-color: transparent;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.rootAlt {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.iconContainer {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #fff;
+  stroke:#fff;
+}
+
+.iconContainer svg {
+  height: 19px;
+}
+
+.iconContainerAlt {
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+}

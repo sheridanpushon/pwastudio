@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 0;
+  font: var(--unnamed-font-style-normal) normal 600 15px/18px var(--unnamed-font-family-inter);
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.headerOpen {
+  color: var(--primary);
+}
+
+.chevron {
+  stroke: #3d3c3e;
+}
+
+.chevronOpen {
+  stroke: var(--secondary);
+  transform: rotate(180deg) translateY(-4px);
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.children {
+  height: 0;
+  overflow: hidden;
+}
+
+.childrenOpen {
+  height: auto;
+  padding-bottom: 30px;
+}
